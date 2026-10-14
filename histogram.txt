@@ -1,0 +1,36 @@
+=== RUN 1 THREAD (Ke-1) ===
+race       waktu=0.083 total=100000000 benar=ya
+critical   waktu=2.375 total=100000000 benar=ya
+atomic     waktu=1.054 total=100000000 benar=ya
+reduction  waktu=0.082 total=100000000 benar=ya
+lokal      waktu=0.083 total=100000000 benar=ya
+=== RUN 1 THREAD (Ke-2) ===
+race       waktu=0.082 total=100000000 benar=ya
+critical   waktu=2.321 total=100000000 benar=ya
+atomic     waktu=1.008 total=100000000 benar=ya
+reduction  waktu=0.082 total=100000000 benar=ya
+lokal      waktu=0.083 total=100000000 benar=ya
+=== RUN 1 THREAD (Ke-3) ===
+race       waktu=0.083 total=100000000 benar=ya
+critical   waktu=2.230 total=100000000 benar=ya
+atomic     waktu=1.003 total=100000000 benar=ya
+reduction  waktu=0.082 total=100000000 benar=ya
+lokal      waktu=0.085 total=100000000 benar=ya
+=== RUN 8 THREADS (Ke-1) ===
+race       waktu=0.735 total=57798595 benar=TIDAK
+critical   waktu=29.521 total=100000000 benar=ya
+atomic     waktu=1.698 total=100000000 benar=ya
+reduction  waktu=0.051 total=100000000 benar=ya
+lokal      waktu=0.042 total=100000000 benar=ya
+=== RUN 8 THREADS (Ke-2) ===
+race       waktu=0.731 total=57812290 benar=TIDAK
+critical   waktu=31.473 total=100000000 benar=ya
+atomic     waktu=1.691 total=100000000 benar=ya
+reduction  waktu=0.051 total=100000000 benar=ya
+lokal      waktu=0.038 total=100000000 benar=ya
+=== RUN 8 THREADS (Ke-3) ===
+race       waktu=0.754 total=57873582 benar=TIDAK
+critical   waktu=28.979 total=100000000 benar=ya
+atomic     waktu=1.771 total=100000000 benar=ya
+reduction  waktu=0.030 total=100000000 benar=ya
+lokal      waktu=0.028 total=100000000 benar=ya
